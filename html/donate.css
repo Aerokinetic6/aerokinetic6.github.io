@@ -128,7 +128,7 @@ img.pubkey {
     background-color: black;
     background-image: url("pics/bween_web2.2.jpg");
     background-size: cover;
-    background-position: 0px -325px;
+    background-position: 0px 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*min-height: 800px;*/
