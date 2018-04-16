@@ -1,0 +1,58 @@
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+p#defi {
+  color: #A100A9;
+  margin: 80px auto 0 auto;
+  font-size: 18px;
+  font-family: "Open Sans";
+  width: 244px;
+}
+
+div.content {
+  width: 95%;
+  margin: 20px auto 0 auto;
+}
+
+p.content {
+  color: #A8A8A8;
+  font-size: 18px;
+  font-family: "Open Sans";
+  text-indent: .7em;
+  m
+}
+
+}
+
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+
+p#defi {
+  color: #A100A9;
+  margin: 40px auto 0 auto;
+  font-size: 18px;
+  font-family: "Open Sans";
+  width: 250px;
+}
+
+div.content {
+  width: 840px;
+  margin: 70px auto 0 auto;
+}
+
+p.content {
+  color: #A8A8A8;
+  font-size: 18px;
+  font-family: "Open Sans";
+  text-indent: .7em;
+}
+
+}
