@@ -294,7 +294,7 @@ div#navbar ul li a {
 @media only screen and (min-device-width: 651px) {
 div#navbar {
   width: 100%;
-  min-width: 1150px;
+/*  min-width: 1150px;*/
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
@@ -303,6 +303,7 @@ div#navbar {
   line-height: 50px;
   padding-top: 12px;
   padding-bottom: 15px;
+
 
   /*border: 2px solid red;
     /*padding: 70 0 70 0;
@@ -319,7 +320,7 @@ div#navbar ul {
   border-top: 1px solid #500054;
   border-bottom: 1px solid #500054;
   max-width: 60%;
-  min-width: 50%;
+  min-width: 980px;
   padding:0;
 
 }
@@ -411,7 +412,7 @@ div#branding {
   margin: 100px auto 0 auto;
 /*  border: 2px solid red;*/
   height: 100px;
-  width: 1150px;
+  width: 980px;
   /*min-width: 900px;*/
   /*position: relative;*/
 
@@ -425,7 +426,7 @@ img#logo {
   /*left: 360px;*/
   /*left: 22%;*/
   /*border: 2px solid red;*/
-  margin-left: 135px;
+  margin-left: 35px;
   margin-top: -50px;
   float: left;
 }
@@ -447,7 +448,7 @@ img#ls_fonts {
 div#soc {
   /*border: 2px solid red;*/
   margin-top: 155px;
-  margin-left: 840px;
+  margin-left: 740px;
 }
 
 a.sc {
