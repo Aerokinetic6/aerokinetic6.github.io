@@ -1,0 +1,331 @@
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+  p.join, p.con, p.con_m {
+  color: #D4A348;
+  font-size: 25px;
+  font-family: Georgia;
+  display: block;
+
+
+}
+
+
+p.join {
+ margin: 30px auto 10px auto;
+ width: 100px;
+}
+
+p.con {
+ margin: 50px auto 0px auto;
+ width: 150px;
+ display: none;
+}
+
+
+p.con_m {
+ margin: 80px auto 20px auto;
+ width: 150px;
+ text-align: center;
+
+}
+
+ul#socmeds {
+  text-align: center;
+  list-style-type: none;
+
+
+  padding-left: 0;
+
+
+}
+
+ul#socmeds li {
+    margin-bottom: 20px;
+
+
+}
+
+ul#socmeds li a{
+  color: #F300FF;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+
+
+form#contfrm {
+  display: block;
+
+
+  margin: 0 auto 0 auto;
+
+
+}
+
+form#contfrm input:not(#sndbtn), form#contfrm textarea {
+  -webkit-appearance: none;
+  border-radius: 0px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  color: #A8A8A8;
+  background-color: rgba(0, 0, 0, 0.58);
+  border: 1px solid #535353;
+  margin: 0 auto 10px auto;
+  width: 90%;
+  display: block;
+
+}
+
+input#sndbtn {
+  -webkit-appearance: none;
+  color: #A8A8A8;
+  font-size: 18px;
+  font-weight: bold;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.51);
+  border: none;
+  padding: 16px;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+
+form#contfrm ::placeholder {
+    color: #A8A8A8;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+
+input#nm {
+  padding: 8px;
+  margin-bottom: 20px;
+
+}
+
+input#ml {
+  /*display: inline-block;*/
+  margin-top: 20px;
+  padding: 8px;
+
+}
+
+
+input#subj {
+  width: 364px;
+  padding: 8px;
+}
+
+textarea {
+  width: 364px;
+  height: 140px;
+  padding: 8px;
+}
+
+
+
+hr.conti {
+  color: #535353;
+  border-top: 1px solid #535353;
+  border-bottom: 1px solid #535353;
+  width: 90%;
+  margin-top: 100px;
+}
+
+p.reach {
+  color: #A8A8A8;
+  font-size: 14px;
+  font-family: "Open Sans";
+  width: 230px;
+  /*background-color: red;*/
+  margin: 20px auto -80px auto;
+
+
+}
+
+p.reach a {
+  padding-left: 20px;
+  color: #83B2FF;
+}
+
+span#tel {
+  padding-left: 20px;
+}
+
+hr.basic {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+}
+
+
+
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+
+  p.join, p.con {
+  color: #D4A348;
+  font-size: 25px;
+  font-family: Georgia;
+  display: inline-block;
+
+
+}
+
+
+p.join {
+ margin: 50px 0px 0px 200px;
+ width: 100px;
+}
+
+p.con {
+ margin: 50px 0px 0px 340px;
+ width: 150px;
+}
+
+p.con_m {
+  display: none;
+
+}
+
+ul#socmeds {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 80px;
+  width: 300px;
+  margin-left: 100px;
+  padding-left: 0;
+
+
+}
+
+ul#socmeds li {
+    margin-bottom: 20px;
+
+
+}
+
+ul#socmeds li a{
+  color: #F300FF;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+
+
+form#contfrm {
+  display: inline-block;
+  float: right;
+  /*background-color: red;*/
+  margin-top: -310px;
+  margin-right: 75px;
+  height: 200px;
+}
+
+form#contfrm input:not(#sndbtn), form#contfrm textarea {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  color: #A8A8A8;
+  background-color: rgba(0, 0, 0, 0.58);
+  border: 1px solid #535353;
+  margin-bottom: -3px;
+
+}
+
+p.just_m {
+  display: none;
+}
+
+input#sndbtn {
+  color: #A8A8A8;
+  font-size: 18px;
+  font-weight: bold;
+    cursor:pointer;
+}
+
+
+form#contfrm ::placeholder {
+    color: #A8A8A8;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+
+input#nm {
+  padding: 5px;
+}
+
+input#ml {
+  /*display: inline-block;*/
+  margin-left: 15px;
+  padding: 5px;
+
+}
+
+
+input#subj {
+  width: 364px;
+  padding: 5px;
+}
+
+textarea {
+  width: 364px;
+  height: 140px;
+  padding: 5px;
+}
+
+input#sndbtn {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.51);
+  border: 0px;
+  padding: 10px;
+}
+
+hr.conti {
+  color: #535353;
+  border-top: 1px solid #535353;
+  border-bottom: 1px solid #535353;
+  width: 830px;
+  margin-top: 100px;
+}
+
+p.reach {
+  color: #A8A8A8;
+  font-size: 14px;
+  font-family: "Open Sans";
+  width: 230px;
+  /*background-color: red;*/
+  margin: 20px auto -80px auto;
+
+
+}
+
+p.reach a {
+  padding-left: 20px;
+  color: #83B2FF;
+}
+
+span#tel {
+  padding-left: 20px;
+}
+
+hr.basic {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+}

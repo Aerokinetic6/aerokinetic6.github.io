@@ -1,0 +1,315 @@
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+  html::before{
+
+    content: ' ';
+    z-index: -10;
+    width: 100%;
+    height: 500px;
+    min-height: 100%;
+    position: fixed;
+    background-color: black;
+
+    background: url("pics/bween_web2.2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+
+    -webkit-filter: brightness(70%) contrast(190%);
+
+
+
+  }
+
+
+
+    body {
+      width: 100%;
+      /*margin-left: 0px;*/
+      padding: 0;
+
+      margin: 0;
+
+    }
+
+
+
+#vid_bg {
+  display: none;
+}
+
+img#ls_fonts2 {
+
+  width: 115%;
+  height: auto;
+  margin: 5px auto 0 -30px;
+  display: block;
+  overflow: hidden;
+
+    -webkit-filter: brightness(150%) brightness(130%)
+  contrast(40%) grayscale(40%);
+
+
+}
+
+
+
+/*SUBSCRIPTION FORM STYLES*/
+
+
+div.sub {
+  width: 90%;
+
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+  margin: 35px auto 0 auto;
+  background-color: rgba(0, 0, 84, 0.08);
+  border-radius: 17px;
+  border: 0;
+
+}
+
+p.sub1 {
+  text-align: center;
+  color: #A100A9;
+  font-weight: 900;
+  font-family: "Open Sans";
+  font-size: 17px;
+  margin-top: 10px;
+
+}
+
+p.sub2 {
+  text-align: center;
+  color: #7F7E7E;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 27px;
+  margin: -15px auto 30px auto;
+  width: 70%;
+  word-break: normal;
+
+}
+
+input.suby {
+  background-color: rgba(80, 0, 84, 0.06);
+  border: 1px solid rgba(80, 0, 84, 1);
+  margin: 0px auto 0 auto;
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: #FAAAFF;
+  padding: 8px;
+  display: block;
+  width: 94%;
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: #FAAAFF;;
+    opacity: 0.5;
+    font-style: italic;
+      -webkit-appearance: none;
+
+}
+
+input.subtn:active {
+  outline: 0;
+  border: 2 px solid white;
+}
+input.subtn {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(80, 0, 84, 1);
+  color: #7F7E7E;
+  font-size: 31px;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  margin: 10px auto 0 auto;
+  display: block;
+  cursor:pointer;
+  outline: 0;
+  -webkit-appearance: none;
+
+}
+
+input.subtn:hover {
+  color: white;
+}
+
+
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+}
+
+img#logo2 {
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+p.disclmr {
+  text-align: center;
+  color: #A8A8A8;
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Open Sans";
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
+
+} /* END of Mobile Version */
+
+
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+
+/*html {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+/*html, body {
+  width: 100%;
+  height:100%;
+  /*overflow-x: auto;
+}*/
+
+
+#vid_bg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 105%;
+  min-height: 100%;
+  max-height: 105%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow-x: hidden;
+  object-fit: cover;
+  background-color: black;
+
+}
+
+
+img#ls_fonts2 {
+
+  margin: 15px auto 0 auto;
+  display: block;
+
+    -webkit-filter: brightness(150%) brightness(130%)
+  contrast(40%) grayscale(40%);
+}
+
+
+
+/*SUBSCRIPTION FORM STYLES*/
+
+
+div.sub {
+  width: 856px;
+  height: 254px;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+  margin: 55px auto 0 auto;
+  background-color: rgba(0, 0, 84, 0.08);
+  border-radius: 17px;
+  border: 0;
+
+}
+
+p.sub1 {
+  text-align: center;
+  color: #A100A9;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 17px;
+  margin-top: 10px;
+
+}
+
+p.sub2 {
+  text-align: center;
+  color: #7F7E7E;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 27px;
+  margin-top: -17px;
+
+}
+
+input.suby {
+  background-color: rgba(80, 0, 84, 0.06);
+  border: 1px solid rgba(80, 0, 84, 1);
+  margin: 0px auto 0 auto;
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: #FAAAFF;
+  padding: 8px;
+  display: block;
+  width: 94%;
+}
+
+::placeholder {
+    color: #FAAAFF;;
+    opacity: 0.5;
+    font-style: italic;
+
+}
+
+input.subtn:active {
+  outline: 0;
+  border: 2 px solid white;
+}
+input.subtn {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(80, 0, 84, 1);
+  color: #7F7E7E;
+  font-size: 31px;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 96%;
+  padding: 8px 0 8px 0;
+  margin: 10px auto 0 auto;
+  display: block;
+  cursor:pointer;
+  outline: 0;
+
+}
+
+input.subtn:hover {
+  color: white;
+}
+
+
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+}
+
+img#logo2 {
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
+p.disclmr {
+  text-align: center;
+  color: #A8A8A8;
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Open Sans";
+  width: 842px;
+  margin: 50px auto 0 auto;
+}
+
+} /* END of Desktop Version */
