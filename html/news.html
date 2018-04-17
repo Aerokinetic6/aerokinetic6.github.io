@@ -14,6 +14,18 @@
 
 <BODY class="news">
 
+
+<script>
+var bg = $("html");
+
+function resizeBackground() {
+    bg.height($(window).height());
+}
+
+$(window).resize(resizeBackground);
+resizeBackground();
+</script>
+
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -254,11 +266,13 @@
    </span>
   </p>
 
+  <div class="like-centr">
   <!-- Your like button code -->
     <div class="fb-like"
     data-href="http://89.132.194.113/index.html"
     data-layout="button" data-action="like" data-size="small"
     data-show-faces="false" data-share="true"></div>
+  </div>
 
 </div>  <!-- FOOTER -->
 

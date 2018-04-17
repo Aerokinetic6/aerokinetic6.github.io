@@ -273,11 +273,19 @@ div#navbar ul li a {
    outline: 0;
  }
 
+
+.like-centr {
+  display: block;
+  margin: 0 auto 0 auto;
+
+  width: 95px;
+}
+
  .fb-like {
    width: 90%;
    margin: 0px auto 0 auto;
+   /*padding-left: 33%;*/
 
-   padding-left: 33%;
 
  }
 }/* MOBILE NAV END */
@@ -520,8 +528,15 @@ div#footer {
   outline: 0;
 }
 
+
+.like-centr {
+  margin: 0 auto 0 auto;
+  width: 95px;
+
+}
+
 .fb-like {
-  margin-left: 87px;
+  margin: 0 auto 0 auto;
 
 }
 
