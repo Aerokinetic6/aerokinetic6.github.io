@@ -39,4 +39,29 @@
   remote repot itt se felejtsük el beállítani az remote add-os paranccsal!
 
 
-    
+
+Egyéb hasznosságok:
+
+  Ha nem ssh-t hanem https-t használunk és nem akarunk mindig usernamet és passwdöt gépelgetni:
+    $git config --global credential.helper cache
+
+  Ha inkonzisztens historyk miatt nem akarja a pull-t végrehajtani akk ezzel kierőltethetjük:
+    $git pull origin master --allow-unrelated-histories
+
+  Config file megtekintése:
+    $git config --list
+
+  Remote repok ill. branchek kilistázása:
+    $git remote -v
+    $git branch -vv
+
+  usrename és email letárolása ill megtekintése:
+    $git config --global user.name "UserName"
+    $git config --global user.email "user@vmimail.com"
+
+    $git config --global user.name
+    $git config --global user.email
+
+  Remote repo törlése:
+    $git remote rm origin
+    $git remote rm destination
