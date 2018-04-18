@@ -10,9 +10,9 @@
     $git remote add origin <remote repo>
       pl.: $git remote add origin git@github.com:Aerokinetic6/aerokinetic6.github.io.git
 
-      a remote repo címet online felületen a "clone or download" repos zöld gomb
-       alatt talál6juk. Atomos packagekhez SSH-s címet használjunk, mert csak
-       azzal műxik vmiért
+   a remote repo címet online felületen a "clone or download" repos zöld gomb
+    alatt talál6juk. Atomos packagekhez SSH-s címet használjunk, mert csak
+    azzal műxik vmiért
 
 
 
