@@ -1,6 +1,6 @@
-# GiTHub & Atom BASICS
+#                                              GiTHub & Atom BASICS
 
-1. Create on local repo first:
+# 1. Create on local repo first:
 
   Atom -> Git Plus -> Git init
 
@@ -24,7 +24,7 @@
   ezután elvileg működni fog..
 
 
-2. Remote to Local:
+# 2. Remote to Local:
 
   Vagy downloadoljuk online felületről a pakkot, v:
 
@@ -41,7 +41,7 @@
 
 
 
-Egyéb hasznosságok:
+# Egyéb hasznosságok:
 
   Ha nem ssh-t hanem https-t használunk és nem akarunk mindig usernamet és passwdöt gépelgetni:
     
