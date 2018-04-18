@@ -25,18 +25,18 @@
 
 2. Remote to Local:
 
-    Vagy downloadoljuk online felületről a pakkot, v:
+  Vagy downloadoljuk online felületről a pakkot, v:
 
     $cd /a_hely/ahol_dolgozunk
     $git clone <remote repo>
 
-    ezt atomon belül git initeljük Git Plussal
+  ezt atomon belül git initeljük Git Plussal
 
-    ha vmit az onlien felületről akarunk befrissíttetni a localra, akk:
+  ha vmit az onlien felületről akarunk befrissíttetni a localra, akk:
 
     $git pull origin <branch>  pl.: $git pull origin master
 
-    remote repot itt se felejtsük el beállítani az remote add-os paranccsal!
+  remote repot itt se felejtsük el beállítani az remote add-os paranccsal!
 
 
-2.     
+    
