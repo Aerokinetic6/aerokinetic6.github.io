@@ -1,3 +1,3 @@
-# lucidsphere.github.io
+# LUCIDSPHERE DEMO SITE
 
-This is lucidsphere customized demo site project and hosting
+classes and ids:
