@@ -69,5 +69,6 @@
     $git config --global user.email
 
   Remote repo törlése:
+  
     $git remote rm origin
     $git remote rm destination
