@@ -1,0 +1,544 @@
+/*Minden oldal közös stylusa*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+
+#header {
+  /*border: 2px solid red;*/
+  width: 100%;
+  padding: 0;
+}
+div#navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  height: 150%;
+  margin: 0 auto 0 auto;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  padding: 0;
+}
+
+#blacky {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+
+
+#hambinav {
+  border: 1px solid white;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  z-index: 1000;
+}
+
+
+
+#tm:checked ~ #navbar {
+  display: block;
+  z-index: 100;
+
+}
+
+#x-mark {
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-filter: invert(100%);
+  padding: 10px;
+}
+
+#xm {
+  display: none;
+}
+#tm:checked + #xm {
+  display: block;
+
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  z-index: 1002;
+
+
+}
+
+div#navbar ul {
+
+  padding: 0;
+}
+
+div#navbar ul li {
+  list-style-type: square;
+  text-align: center;
+  list-style: none;
+
+
+
+  /*line-height: 40px;*/
+  display: block;
+  float: none;
+  margin: 0 auto 20px auto;
+
+
+  width: 95%;
+
+  padding-left: 0;
+
+
+ /*border: 2px solid red;*/
+}
+
+div#navbar ul li a {
+   text-decoration: none;
+   font-family: Play;
+   font-size: 6vw;
+   outline: 0;
+
+
+ }
+
+
+ div#navbar ul li a.others {
+   color: #A260A6;
+ }
+ div#navbar ul li a.others:hover{
+   color: #BD893A;
+   transition: color 1s;
+ }
+
+ .clear_float {
+   clear:both;
+ }
+
+ /*AZ EGYES OLDALAKRA KIJELÖLŐK, KÜLÖN MENUPONT HIGHLIGHTOZÁS*/
+ body.home li.home {
+   background-color: #A100A9;
+ }
+ body.home li.home a.home {
+   color: black;
+ }
+
+ body.news li.news {
+   background-color: #A100A9;
+ }
+ body.news li.news a.news {
+   color: black;
+ }
+
+ body.music li.music {
+   background-color: #A100A9;
+ }
+ body.music li.music a.music {
+   color: black;
+ }
+
+ body.about li.about {
+   background-color: #A100A9;
+ }
+ body.about li.about a.about {
+   color: black;
+ }
+
+ body.donate li.donate {
+   background-color: #A100A9;
+ }
+ body.donate li.donate a.donate {
+   color: black;
+ }
+
+ body.contact li.contact {
+   background-color: #A100A9;
+ }
+ body.contact li.contact a.contact {
+   color: black;
+ }
+
+ /*--MOBILE - BRANDING--*/
+ div#branding {
+   margin: 0px auto 0 auto;
+
+   width: 100%;
+
+
+
+ }
+
+ img#logo {
+   position: absolute;
+   top: 3px;
+   left: 0px;
+   /*left: 22%;*/
+   /*border: 2px solid red;
+   float: left;*/
+   width: 65px;
+   height: 65px;
+ }
+
+ img#ls_fonts {
+   position: absolute;
+   top: 5px;
+   left: 39px;
+   width: 228px;
+   height: 60px;
+
+
+   -webkit-filter: brightness(200%) brightness(180%)
+   contrast(60%) grayscale(30%);
+
+ }
+
+ div#soc {
+
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+
+ }
+
+ a.sc {
+   text-decoration: none;
+   outline: 0;
+ }
+
+
+#fb, #yt, #scl, #bc{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+
+
+}
+
+
+/*img#fb, img#yt, img#scl {
+   /*position: absolute;
+   top: 153px;*/
+  /*border: 2px solid red;*/
+  /*display: inline-block;
+   float: left;
+   margin-right: 10px;
+ }*/
+
+
+ hr.basic {
+    border: 1px;
+    height: 2px;
+    width: 90%;
+
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to right, rgba(100, 100, 100, 0),
+                         rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+
+ }
+
+
+ div#footer {
+   width: 90%;
+   margin: 20px auto 50px auto;
+
+ }
+
+ #footer p{
+   color: white;
+   font-size: 4vw;
+   font-family: "Open Sans";
+   text-align: center;
+
+   display: inline-block;
+   margin-bottom: 40px;
+
+ }
+
+ #footer p span {
+
+ }
+
+ #footer p span a {
+   text-decoration: none;
+   color: white;
+   outline: 0;
+ }
+
+
+.like-centr {
+  display: block;
+  margin: 0 auto 0 auto;
+
+  width: 95px;
+}
+
+ .fb-like {
+   width: 90%;
+   margin: 0px auto 0 auto;
+   /*padding-left: 33%;*/
+
+
+ }
+}/* MOBILE NAV END */
+
+
+
+/*--------------/////////////---------------*/
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+div#navbar {
+  width: 100%;
+/*  min-width: 1150px;*/
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  line-height: 50px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+
+
+  /*border: 2px solid red;
+    /*padding: 70 0 70 0;
+  display: table;
+  margin: 0 auto 0 auto;*/
+
+}
+
+div#navbar ul {
+  /*height: 40px;*/
+  text-align: center;
+  vertical-align: center;
+  margin: 0 auto 0 auto;
+  border-top: 1px solid #500054;
+  border-bottom: 1px solid #500054;
+  max-width: 60%;
+  min-width: 980px;
+  padding:0;
+
+}
+
+div#navbar ul li {
+  list-style-type: none;
+  text-align: center;
+  /*height: 40px;*/
+  /*line-height: 40px;*/
+  display: inline-block;
+  float: none;
+  width: 110px;
+ /*border: 2px solid red;*/
+}
+
+
+div#navbar ul li a {
+  text-decoration: none;
+  font-family: Play;
+  font-size: 18px;
+  outline: 0;
+}
+
+
+div#navbar ul li a.others {
+  color: #A260A6;
+}
+div#navbar ul li a.others:hover{
+  color: #BD893A;
+  transition: color 1s;
+}
+
+.clear_float {
+  clear:both;
+}
+
+label#hambi, img#hambinav, input#tm, #xm, #x-mark, #blacky{
+  display: none;
+}
+
+
+/*AZ EGYES OLDALAKRA KIJELÖLŐK, KÜLÖN MENUPONT HIGHLIGHTOZÁS*/
+body.home li.home {
+  background-color: #A100A9;
+}
+body.home li.home a.home {
+  color: black;
+}
+
+body.news li.news {
+  background-color: #A100A9;
+}
+body.news li.news a.news {
+  color: black;
+}
+
+body.music li.music {
+  background-color: #A100A9;
+}
+body.music li.music a.music {
+  color: black;
+}
+
+body.about li.about {
+  background-color: #A100A9;
+}
+body.about li.about a.about {
+  color: black;
+}
+
+body.donate li.donate {
+  background-color: #A100A9;
+}
+body.donate li.donate a.donate {
+  color: black;
+}
+
+body.contact li.contact {
+  background-color: #A100A9;
+}
+body.contact li.contact a.contact {
+  color: black;
+}
+
+/*--DESKTOP - BRANDING--*/
+
+
+div#branding {
+  margin: 100px auto 0 auto;
+/*  border: 2px solid red;*/
+  height: 100px;
+  width: 980px;
+  /*min-width: 900px;*/
+  /*position: relative;*/
+
+
+
+}
+
+img#logo {
+  /*position: absolute;
+  top: 100px;
+  /*left: 360px;*/
+  /*left: 22%;*/
+  /*border: 2px solid red;*/
+  margin-left: 35px;
+  margin-top: -50px;
+  float: left;
+}
+
+img#ls_fonts {
+/*  position: absolute;*/
+    /*left: 492px;*/
+  /*border: 2px solid red;*/
+  margin-top: -30px;
+  margin-left: -30px;
+  float: left;
+
+
+  -webkit-filter: brightness(150%) brightness(130%)
+  contrast(40%) grayscale(40%);
+
+}
+
+div#soc {
+  /*border: 2px solid red;*/
+  margin-top: 155px;
+  margin-left: 740px;
+}
+
+a.sc {
+  text-decoration: none;
+  outline: 0;
+}
+
+img#fb, img#yt, img#scl {
+  /*position: absolute;
+  top: 153px;*/
+ /*border: 2px solid red;*/
+  float: left;
+  margin-right: 10px;
+}
+img#fb {
+  /*left: 1087px;*/
+}
+img#yt {
+  /*left: 1130px;*/
+}
+
+img#sc {
+  /*left: 1170px;*/
+}
+
+img#bc {
+  /*left: 1210px;*/
+  /* border: 2px solid red;*/
+
+}
+
+
+hr.basic {
+   border: 0;
+   height: 1px;
+   width: 350px;
+
+   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+   background-image: linear-gradient(to right, rgba(100, 100, 100, 0),
+                        rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+
+}
+
+
+div#footer {
+  width: 980px;
+  margin: 20px auto 50px auto;
+
+}
+
+
+#footer p{
+  color: white;
+  font-size: 13px;
+  font-family: "Open Sans";
+  line-height: 30px;
+  padding-left: 15px;
+  display: inline-block;
+
+}
+
+#footer p span {
+  padding-left: 15px;
+}
+
+#footer p span a {
+  text-decoration: none;
+  color: white;
+  outline: 0;
+}
+
+
+.like-centr {
+  margin: 0 auto 0 auto;
+  width: 95px;
+
+}
+
+.fb-like {
+  margin: 0 auto 0 auto;
+
+}
+
+
+} /*DESKTOP Version END */

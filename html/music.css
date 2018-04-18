@@ -1,0 +1,45 @@
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+iframe.player {
+  margin: 30px auto 20px auto;
+  max-width: 700px;
+
+}
+
+
+
+p.more {
+  margin: 0 auto 50px auto;
+  width: 200px;
+}
+
+
+
+}
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+
+iframe.player {
+  margin-left: 140px;
+  margin-bottom: 160px;
+  max-width: 700px;
+
+}
+
+
+
+p.more {
+  margin: 0 auto 50px auto;
+  width: 200px;
+}
+
+}

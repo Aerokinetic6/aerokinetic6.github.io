@@ -1,0 +1,225 @@
+/*----------//////////////////---------------*/
+/*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+  div.feed {
+  width: 95%;
+  margin: 40px auto 0 auto;
+
+
+}
+
+
+
+
+div.feed img, div.feed iframe {
+  display: block;
+  margin: 0 auto 0 auto;
+  border: 10px solid rgba(80, 0, 84, 0.1);
+  border-radius: 10px;
+  box-shadow: 1px 1px 14px 13px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  height: auto;
+
+}
+
+p.shout {
+  font-size: 25px;
+  font-family: Georgia;
+  color: #A100A9;
+  margin-left: 15px;
+  margin-bottom: -15px;
+}
+
+p.date {
+  font-size: 14px;
+  color: #A8A8A8;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+p.story {
+  font-size: 17px;
+  color: #A8A8A8;
+  font-family: "Open Sans";
+  width: 95%;
+  margin-left: 15px;
+  /*display: block;*/
+}
+
+hr.feed_slctr {
+  border: 0;
+  height: 1px;
+  width: 90%;
+  margin-top: 40px;
+
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0),
+                       rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+}
+
+div.upy {
+  margin: auto;
+
+    width: 39px;
+}
+
+.up {
+  border: 2px solid #242424;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: #343434;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 12px;
+  font-weight: 900;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.up:hover {
+  background-color: #180018;
+  border-color: #2F0024;
+  color: #5F0054;
+  transition: background-color 4s;
+}
+
+a#anch {
+  text-decoration: none;
+  outline: 0;
+}
+
+div#navinvis {
+  height: 70px;
+  visibility: hidden;
+  background-color: red;
+  margin-bottom: -78px;
+}
+
+}
+
+
+
+
+/*----------//////////////////---------------*/
+/*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (min-device-width: 651px) {
+
+  div.feed {
+  width: 839px;
+  margin: 75px auto 0 auto;
+}
+
+div.feed img, div.feed iframe {
+  display: inline;
+  float: left;
+  border: 4px solid rgba(80, 0, 84, 0.1);
+  border-radius: 10px;
+  box-shadow: 1px 1px 14px 13px rgba(0, 0, 0, 0.5);
+}
+
+p.shout {
+  font-size: 25px;
+  font-family: Georgia;
+  color: #A100A9;
+  margin-left: 360px;
+  margin-bottom: -15px;
+}
+
+p.date {
+  font-size: 14px;
+  color: #A8A8A8;
+  font-style: italic;
+  font-family: "Open Sans";
+  text-align: right;
+  margin-bottom: -5px;
+}
+
+p.story {
+  font-size: 17px;
+  color: #A8A8A8;
+  font-family: "Open Sans";
+  width: 480px;
+  margin-left: 360px;
+  /*display: block;*/
+}
+
+hr.feed_slctr {
+  border: 0;
+  height: 1px;
+  width: 1000px;
+  margin-top: 100px;
+
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right, rgba(100, 100, 100, 0),
+                       rgba(100, 100, 100, 0.75), rgba(100, 100, 100, 0));
+}
+
+div.upy {
+  margin: auto;
+
+    width: 39px;
+}
+
+.up {
+  border: 2px solid #242424;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: #343434;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 12px;
+  font-weight: 900;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.up:hover {
+  background-color: #180018;
+  border-color: #2F0024;
+  color: #5F0054;
+  transition: background-color 4s;
+}
+
+a#anch {
+  text-decoration: none;
+  outline: 0;
+}
+
+div#navinvis {
+  height: 70px;
+  visibility: hidden;
+  background-color: red;
+  margin-bottom: -78px;
+}
+
+}

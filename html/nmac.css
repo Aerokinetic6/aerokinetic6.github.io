@@ -1,0 +1,345 @@
+/*News, Music, About, Contact mpontok közös stylusai*/
+
+
+
+  /*----------//////////////////---------------*/
+ /*----------/// MOBILE VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+@media only screen and (max-device-width: 650px) {
+
+  html::before{
+
+    content: ' ';
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    min-height: 1800px;
+    position: fixed;
+    background-color: black;
+
+    background: url("pics/smoke_phone.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+
+
+
+
+
+
+  }
+
+  body {
+    width: 100%;
+    /*margin-left: 0px;*/
+    padding: 0;
+      background-color: black;
+    margin: 0;
+  }
+
+
+/*
+body {
+  background-color: black;
+  background-image: url("pics/smoke_phone.jpg");
+  background-size: cover;
+  background-position: 0px 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}*/
+
+div.main {
+    background: rgba(0, 0, 0, 0.4);
+
+    margin: 12px auto 0 auto;
+   border: 1px solid rgba(0, 0, 0, 0.0);
+   border-radius: 5px;
+
+    width: 96%;
+  /*  height: 985px;
+    /*z-index: 2;*/
+}
+
+div.titl {
+  /*border: 1px solid red;*/
+  /*margin-top: 20px;
+  margin-left: 25px;*/
+  width: 85%;
+  margin: 20px auto 0 auto;
+}
+
+div.titl p {
+  font-size: 25px;
+  color: #F300FF;
+  font-family: Georgia;
+}
+
+div.little {
+
+  width: 85%;
+  /*height: 136px;*/
+  margin: -20px auto -50px auto;
+  margin-top: -20px;
+  display: block;
+
+
+}
+
+div.little p, .more{
+  color: #A8A8A8;
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Open Sans";
+
+}
+
+div.little img {
+  border: 4px solid rgba(80, 0, 84, 0.1);
+  border-radius: 10px;
+  box-shadow: 1px 1px 14px 13px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*SUBSCRIPTION FORM STYLES*/
+
+
+div.sub {
+  width: 352px;
+  height: 159px;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+  float:right;
+  margin-right: 55px;
+  margin-top: -55px;
+  display: none;
+}
+
+p.sub1 {
+  text-align: center;
+  color: #F300FF;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+p.sub2 {
+  text-align: center;
+  color: #FAAAFF;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-top: -17px;
+
+}
+
+input.suby {
+  background-color: rgba(83, 83, 83, 0.28);
+  border: 0px;
+  margin: 0px 0 0 20px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #FAAAFF;
+  padding: 8px;
+}
+
+::placeholder {
+    color: #FAAAFF;;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+input.subtn:active {
+  outline: 0;
+  border: 2 px solid white;
+}
+input.subtn {
+  background-color: rgba(80, 0, 84, 0.58);
+  border: 0px;
+  color: #FAAAFF;
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 309px;
+  padding: 8px 0 8px 0;
+  margin: 10px 0 0 20px;
+  cursor:pointer;
+  outline: 0;
+
+}
+
+input.subtn:hover {
+  color: white;
+}
+
+
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+} /*belső dotted keret eltávolítása kattintáskor ffoxban*/
+
+/* SUBSCRIPTION FORM STYLE END */
+
+
+}
+
+
+
+  /*----------//////////////////---------------*/
+ /*----------///DESKTOP VIEW///---------------*/
+/*----------//////////////////---------------*/
+
+
+
+@media only screen and (min-device-width: 651px) {
+
+body {
+  background-color: black;
+  background-image: url("pics/smoke_phone.jpg");
+  background-size: cover;
+  background-position: 0px 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*min-height: 800px;*/
+}
+
+div.main {
+    background: rgba(0, 0, 0, 0.4);
+
+    margin: 15px auto 0 auto;
+   border: 1px solid rgba(0, 0, 0, 0.0);
+   border-radius: 5px;
+
+    width: 980px;
+  /*  height: 985px;
+    /*z-index: 2;*/
+}
+
+div.titl {
+  /*border: 1px solid red;*/
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+div.titl p {
+  font-size: 25px;
+  color: #F300FF;
+  font-family: Georgia;
+}
+
+div.little {
+/*  border: 1px solid red;*/
+  width: 432px;
+  /*height: 136px;*/
+  margin-left: 70px;
+  margin-top: -20px;
+  display: inline-block;
+
+}
+
+div.little p, .more{
+  color: #A8A8A8;
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Open Sans";
+
+}
+
+div.little img {
+  border: 4px solid rgba(80, 0, 84, 0.1);
+  border-radius: 10px;
+  box-shadow: 1px 1px 14px 13px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+
+
+/*SUBSCRIPTION FORM STYLES*/
+
+
+div.sub {
+  width: 352px;
+  height: 159px;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+  float:right;
+  margin-right: 55px;
+  margin-top: -55px;
+}
+
+p.sub1 {
+  text-align: center;
+  color: #F300FF;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+p.sub2 {
+  text-align: center;
+  color: #FAAAFF;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-top: -17px;
+
+}
+
+input.suby {
+  background-color: rgba(83, 83, 83, 0.28);
+  border: 0px;
+  margin: 0px 0 0 20px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #FAAAFF;
+  padding: 8px;
+}
+
+::placeholder {
+    color: #FAAAFF;;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+input.subtn:active {
+  outline: 0;
+  border: 2 px solid white;
+}
+input.subtn {
+  background-color: rgba(80, 0, 84, 0.58);
+  border: 0px;
+  color: #FAAAFF;
+  font-size: 14px;
+  font-family: "Open Sans";
+  text-align: center;
+  width: 309px;
+  padding: 8px 0 8px 0;
+  margin: 10px 0 0 20px;
+  cursor:pointer;
+  outline: 0;
+
+}
+
+input.subtn:hover {
+  color: white;
+}
+
+
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+} /*belső dotted keret eltávolítása kattintáskor ffoxban*/
+
+/* SUBSCRIPTION FORM STYLE END */
+
+
+}
