@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  color: #666666;
+
+}
+
+h1, h2 {
+
+  margin: 0 auto 0 auto;
+  text-align: center;
+
+}
+
+h2 {
+  margin-top: 3em;
+  text-decoration: underline;
+
+}
+
+#menu {
+  /*border: 2px solid #337722;*/
+  margin: 3em;
+
+}
+
+#menu ul{
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  border: 2px solid #337722;
+  width: 17%;
+  margin: 0 auto 0 auto;
+
+
+}
+
+li {
+  line-height: 2em;
+  border-bottom: 2px solid #337722;
+  width: 100%;
+
+}
+
+li:last-child {
+  border-bottom: none;
+
+}
+
+#game_area {
+  width: 1122px;
+  height: 30em;
+  margin: 0 auto 0 auto;
+  border: 5px solid #337722;
+}
+
+.snake {
+  display: inline;
+  margin-right: 1px;
+  padding-right: 2px;
+
+}
+
+.nt_snake {
+  display: inline;
+  margin-right: 1px;
+  padding-right: 2px;
+  color: black;/*#111111;*/
+
+}
