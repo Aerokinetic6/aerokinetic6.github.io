@@ -42,11 +42,6 @@
     margin: 0;
   }
 
-body.ms {
-        background-image: none !important;
-        background: rgba(255,255,255,.0);
-
-}
 
 /*
 body {
@@ -67,7 +62,6 @@ div.main {
    border-radius: 5px;
 
     width: 96%;
-   
   /*  height: 985px;
     /*z-index: 2;*/
 }
@@ -119,39 +113,14 @@ div.little img {
 /*SUBSCRIPTION FORM STYLES*/
 
 
-
-.ifr-sub {
-  display:none;
- 
-}
-
-.ifr-mob-wrap{
-
-  overflow: hidden;
-  
-}
-.ifr-mob {
-  display: block;
-  
-  height: 200px;
- 
-  width: 90%;
-  border: 0;
-  margin: 0 auto 0 auto;
-}
-
-
-
-
 div.sub {
-  width: 90%;
+  width: 352px;
   height: 159px;
-  
-  margin: 0 auto 0 auto;
 /*  background-color: rgba(0, 0, 0, 0.5);*/
-  
-  
-  /*display: none;*/
+  float:right;
+  margin-right: 55px;
+  margin-top: -55px;
+  display: none;
 }
 
 p.sub1 {
@@ -177,15 +146,11 @@ p.sub2 {
 input.suby {
   background-color: rgba(83, 83, 83, 0.28);
   border: 0px;
-  margin: 0 auto 0 auto;
+  margin: 0px 0 0 20px;
   font-size: 14px;
   font-family: "Open Sans";
   color: #FAAAFF;
   padding: 8px;
-  width: 100%;
-  box-sizing: border-box;
-  
-  /*text-align:center;*/
 }
 
 ::placeholder {
@@ -196,27 +161,21 @@ input.suby {
 
 input.subtn:active {
   outline: 0;
-  border: 2px solid white;
+  border: 2 px solid white;
 }
 input.subtn {
   background-color: rgba(80, 0, 84, 0.58);
-  border: 0;
+  border: 0px;
   color: #FAAAFF;
   font-size: 14px;
   font-family: "Open Sans";
   text-align: center;
-  width: 100%;
+  width: 309px;
   padding: 8px 0 8px 0;
-  margin: 10px auto 0 auto;
+  margin: 10px 0 0 20px;
   cursor:pointer;
   outline: 0;
-  border-radius: 0px;
 
-}
-
-input {
-    -webkit-appearance: none;
-    border-radius: 0;
 }
 
 input.subtn:hover {
@@ -226,7 +185,6 @@ input.subtn:hover {
 
 input[type="submit"]::-moz-focus-inner {
    border: 0;
-   border-radius: 0;
 } /*belső dotted keret eltávolítása kattintáskor ffoxban*/
 
 /* SUBSCRIPTION FORM STYLE END */
@@ -253,11 +211,7 @@ body {
   background-attachment: fixed;
   /*min-height: 800px;*/
 }
-body.ms {
-        background-image: none;
-        background: rgba(255,255,255,.0);
 
-}
 div.main {
     background: rgba(0, 0, 0, 0.4);
 
@@ -312,25 +266,13 @@ div.little img {
 /*SUBSCRIPTION FORM STYLES*/
 
 
-.ifr-sub {
-  border: 0;
-  float:right;
-  margin-right: 63px;
-  margin-top: -55px;
-  width: 352px; 
-  height: 199px;
- 
-}
-
-.ifr-mob {display: none;}
-
 div.sub {
   width: 352px;
   height: 159px;
 /*  background-color: rgba(0, 0, 0, 0.5);*/
- /* float:right;
+  float:right;
   margin-right: 55px;
-  margin-top: -55px;*/
+  margin-top: -55px;
 }
 
 p.sub1 {

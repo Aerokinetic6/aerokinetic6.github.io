@@ -13,7 +13,21 @@
 
 <BODY onload="setPlaySpeed()" class="subscribe">
 
+<?php  
+    
+        $msg_OK="<p class='sub1'>Thanks for Subscribing!<br/>yo Check your inbox for the download linky!</p>";
+        $msg_BAD="<p style='color:red; text-align:center;'>No cheating, either you subscribed once or you has not yet filled tha subscription form.</p>";
+         session_start();
 
+        $em= $_SESSION['email'];
+        echo $em;
+        
+        if (empty($em)) {
+        $msg="<p style='color:red; text-align:center;'>".$em."</p>".$msg_BAD;}
+        else {$msg="<p class='sub1'>".$em."</p>".$msg_OK; $em=""; session_start(); $_SESSION['email']="";}
+        
+
+ ?>
 
   <video autoplay muted loop id="vid_bg">
     <source src="pics/Electric_Darkness.mp4" type="video/mp4">
@@ -33,18 +47,12 @@
 
   <div class="sub">
     
-    <p class="sub1">
-      Please Subscribe for
+    <?php echo $msg; ?>
+    
+      
     </p>
-    <p class="sub2">
-      FREE DOWNLOAD!
-    </p>
-    <form action="subscribe.php" method="post" name="subform" onsubmit="return emptyForm()">
-      <input class="suby" type="email" name="mail" placeholder="Email Address" 
-       size="35" maxlength="150">
-       <input class="subtn" type="submit" value="Subscribe">
-    </form>
-          <p id="hey" style="color:red; text-align:center; display:none;">*Valid Email is required</p>
+   
+        
   </div> <!-- SUBSCRIBE FORM -->
 
   <p class="clear_float">
@@ -59,7 +67,7 @@
     (or an upcoming live performance).<br>
     Still, You can unsubscribe anytime you want.
   </p>
-      
+
 
   <p class="clear_float">
     <br><br><br>
@@ -68,10 +76,7 @@
 
 
     <hr class="basic">
-    
-<script src="empty.js">
 
-</script>
 
 
 </BODY>

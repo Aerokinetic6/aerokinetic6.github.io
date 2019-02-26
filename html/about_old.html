@@ -6,13 +6,13 @@
   <META name="description" content="Ambient Metal" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="pics/logo_yt2.2_2.ico">
-  <LINK rel="stylesheet" type="text/css" href="contact.css">
   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-  <LINK rel="stylesheet" type="text/css" href="nmac.css">
+  <LINK rel="stylesheet" type="text/css" href="about.css">
+  <LINK rel="stylesheet" type="text/css" href="nmac_old.css">
   <LINK rel="stylesheet" type="text/css" href="all.css">
 </HEAD>
 
-<BODY class="contact">
+<BODY class="about">
 
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -40,9 +40,9 @@
       <li><a class="others" href="index.html">HOME</a></li>
       <li><a class="others" href="news.html">NEWS</a></li>
       <li><a class="others" href="music.html">MUSIC</a></li>
-      <li><a class="others" href="about.html">ABOUT</a></li>
+      <li class="about"><a class="about" href="about.html">ABOUT</a></li>
       <li><a class="others" href="donate.html">DONATE</a></li>
-      <li class="contact"><a class="contact" href="contact.html">CONTACT</a></li>
+      <li><a class="others" href="contact.html">CONTACT</a></li>
     </ul>
   </div> <!--NAVBAR-->
 
@@ -72,66 +72,70 @@
 </div> <!--HEADER-->
 
 <div class="main">
-  <p class="join">
-    Join Us:
+  <div class="titl">
+    <p>
+      ABOUT
+    </p>
+  </div>
+  <div class="little">
+    <img src="pics/fusion.jpg" alt="fusion" width="361" height="180">
+  </div> <!-- LITTLE PARAGRAPH -->
+
+  <div class="sub">
+    <p class="sub1">
+      Please Subscribe for
+    </p>
+    <p class="sub2">
+      FREE DOWNLOAD!
+    </p>
+    <form action="send.php" method="post">
+      <input class="suby" type="email" name="mail" placeholder="Email Address"
+       size="35" maxlength="150">
+       <input class="subtn" type="submit" value="Subscribe">
+    </form>
+  </div> <!-- SUBSCRIBE FORM -->
+
+  <p id="defi">
+    Psychedelic and metal fusion
   </p>
-  <p class="con">
-    Contact Us:
+  <div class="content">
+
+  <p class="content">
+      Most songs we are composing, want to summon dreamlike atmospheres.
+    They intend to bring the undescribable dimensions of moods and visions
+    that intense or even lucid dreams make possible to access.
+    <br>
+​  </p>
+
+  <p class="content">
+  Our mission of creating music is driven by the constant search for answers
+  to ageless questions such as what is the ultimate truth, who we are,
+  what is conciousness, or do we exist at all?
+  <br>  We have a strong desire to comprehend the vast complexity and ambivalent
+  nature of our reality in an open way. Dreams may play a defining role in
+  the future to understand ourselves and the world we are living in, but even if
+  not, they will always be a great source of inspirations, and our magical realm
+  to get lost and explore endlessly by any form of human art.
+  <br><br>
+</p>
+
+<p class="content">
+  To reach our above mentioned goal we have chosen a path only very few has
+  taken:<br>
+The fine tuned mixture of ambient and metal tones. These two genres are the core
+ components of our songs, but with time we are determined to constantly improve
+  and experiement other styles of music to enrich and diversify our work in a
+  balanced way.
+  <br><br>
+
+  For more, subscribe or join our social media groups!
+  <br><br><br>
   </p>
-  <p class="clear_float"></p>
-  <ul id="socmeds">
-    <li><a href="facebook.com">Facebook</a></li>
-    <li><a href="facebook.com">Youtube</a></li>
-    <li><a href="facebook.com">SoundCloud</a></li>
-    <li><a href="facebook.com">Bandcamp</a></li>
-    <li><a href="facebook.com">Free Download<br>&<br>Newsletter</a></li>
-  </ul>
+</div> <!-- CONTENT ABOUT TXT -->
+<hr class="basic">
+<br><br><br><br>
+</div> <!--MAIN CONTAINER-->
 
-  <p class="con_m">
-    Contact Us:
-  </p>
-  
-  
-
-
-  <form id="contfrm" action="contact.php" method="post" name="contyform" onsubmit="return emptyCont()">
-    <input id="nm" type="text" name="name" placeholder="Name"
-           size="15" maxlength="200">
-    <p class="just_m"> </p>
-    <input id="ml" type="email" name="cmail" placeholder="Email *"
-           size="16" maxlength="200" >
-    <p class="clear_float"> </p>
-    <input id="subj" type="text" name="subj" placeholder="Subject"
-           size="34" maxlength="200">
-    <p class="clear_float"> </p>
-    <textarea name="msg" placeholder="Message"
-              rows="6" cols="32"></textarea>
-    <p class="clear_float"> </p>
-    <input id="sndbtn" type="submit" value="Send">
-    <p class="clear_float"> </p>
-    <p id="hey" style="color:red; text-align:center; display:none;">*Valid Email is required</p>
-    <p id="sent" style="color:#FF00FF; text-align:center; display:none; ">Message was sent succesfully.</p>
-    
-  </form>
-  <p class="clear_float"> </p>
-
-  <hr class="conti">
-  <p class="reach">
-    E-mail:<br>
-    <a href="mailto:lucidsphere.official@gmail.com" target="_blank">
-    lucidsphere.official@gmail.com</a><br><br>
-    Tel.:<br><span id="tel">+36-30-293-81-09</span>
-  </p>
-
-  <hr class="conti">
-  <hr class="basic">
-
-
-
-
-</div> <!-- MAIN CONTAINER -->
-
-<p class="clear_float"> </p>
 <div id="footer">
   <p>
       © 2018 by LucidSphere Ambient Metal Music Production<br>
@@ -148,27 +152,9 @@
     data-href="http://89.132.194.113/index.html"
     data-layout="button" data-action="like" data-size="small"
     data-show-faces="false" data-share="true"></div>
-  </div>
+  </div>  
+
 </div>  <!-- FOOTER -->
-
-
-<script>
-function emptyCont() {
-  var x = document.forms["contyform"]["cmail"].value;
-  if (x == "") {
-    //alert("Valid email is required!");
-    document.getElementById("hey").style.display="block";
-    document.getElementById("ml").style.border="2px solid #EE4400";
-    //document.getElementsByTagName("form")[0].style.display="none";
-    
-    return false;
-  }
-  else {//document.getElementsByTagName("form")[0].style.display="none"; 
-        document.getElementById("sent").style.display="block"
-        document.getElementById("hey").style.display="none";
-        return true;}
-}
-</script>
 
 </BODY>
 </HTML>
