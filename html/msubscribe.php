@@ -66,7 +66,7 @@ $mail->SMTPSecure = 'tls';
 
 
 $mail->Username = "lucidsphere.official@gmail.com";
-$mail->Password = "alkoholospina";
+$mail->Password = "*******"; //replace with actual pwd!
 
 $mail->IsHTML(true); // if you are going to send HTML formatted emails
 $mail->SingleTo = true; // if you want to send a same email to multiple users. multiple emails will be sent one-by-one.
